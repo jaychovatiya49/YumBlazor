@@ -84,7 +84,7 @@ else
 		{
 			await _categoryRepository.CreateAsync(Category);
 			await _JS.ToastrSuccess("Category Created Successfully");
-		}
+		}	
 		else
 		{
 			await _categoryRepository.UpdateAsync(Category);
